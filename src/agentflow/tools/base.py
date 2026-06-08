@@ -1,5 +1,5 @@
 """
-Tool Registry and Base Tool 鈥?Function Calling infrastructure for Agent tool use.
+Tool Registry and Base Tool — Function Calling infrastructure for Agent tool use.
 """
 
 import json
@@ -62,5 +62,5 @@ class ToolRegistry:
         return list(self._tools.keys())
 
     def __repr__(self) -> str:
-        tools = "\n".join(f"  鈥?{n}: {t.description[:60]}" for n, t in self._tools.items())
+        tools = "\n".join(f"  • {n}: {t.description[:60]}" for n, t in self._tools.items())
         return f"ToolRegistry({len(self._tools)} tools):\n{tools}"
