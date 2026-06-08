@@ -1,7 +1,7 @@
 """
 Demo 1: Multi-Agent Task Orchestration
 ======================================
-Demonstrates Planner 鈫?Executor 鈫?Reviewer workflow for complex task solving.
+Demonstrates Planner → Executor → Reviewer workflow for complex task solving.
 Run: python examples/demo_multi_agent.py
 """
 
