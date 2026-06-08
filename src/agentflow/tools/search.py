@@ -1,5 +1,5 @@
 """
-Search Tool 鈥?web search capability via DuckDuckGo (no API key required).
+Search Tool — web search capability via DuckDuckGo (no API key required).
 """
 
 import json
