@@ -1,5 +1,5 @@
 """
-Document Loader 鈥?loads PDF, TXT, Markdown, and HTML documents.
+Document Loader — loads PDF, TXT, Markdown, and HTML documents.
 """
 
 from pathlib import Path
