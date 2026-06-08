@@ -39,7 +39,7 @@ def main():
     print(f"Answer: {response['answer']}")
     print(f"Tool calls made: {len(response['tool_calls'])}")
     for tc in response["tool_calls"]:
-        print(f"  鈥?{tc['tool']}({tc['args']}) 鈫?{tc['result'][:100]}")
+        print(f"  • {tc['tool']}({tc['args']}) → {tc['result'][:100]}")
 
     # Test 2: Python executor
     print("\n" + "=" * 50)
@@ -75,7 +75,7 @@ def main():
     print(f"Answer: {response['answer']}")
     print(f"Tool calls made: {len(response['tool_calls'])}")
     for tc in response["tool_calls"]:
-        print(f"  鈥?{tc['tool']}({tc['args']})")
+        print(f"  • {tc['tool']}({tc['args']})")
 
     print("\nAll tool calling tests complete.")
 
