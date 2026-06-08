@@ -1,5 +1,5 @@
 """
-Planner Agent 鈥?decomposes complex tasks into structured execution plans.
+Planner Agent — decomposes complex tasks into structured execution plans.
 Uses Chain-of-Thought reasoning for step-by-step task decomposition.
 """
 
