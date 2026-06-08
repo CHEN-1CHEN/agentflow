@@ -1,5 +1,5 @@
 """
-Executor Agent 鈥?executes individual plan steps with tool calling capability.
+Executor Agent — executes individual plan steps with tool calling capability.
 Uses ReAct (Reasoning + Acting) pattern for dynamic tool selection and execution.
 """
 
