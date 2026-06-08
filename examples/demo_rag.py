@@ -114,7 +114,7 @@ Agent Architecture Patterns:
    - Memory Agent: Knowledge storage and retrieval
 
 4. Reflexion: The agent reflects on its own outputs, identifies errors, and improves.
-   Uses verbal reinforcement learning 鈥?the agent critiques its own reasoning trace.
+   Uses verbal reinforcement learning — the agent critiques its own reasoning trace.
 
 5. Tool-Augmented Agents (Function Calling): Agents call external tools via structured APIs.
    Tools can include: calculators, search engines, code interpreters, databases, APIs.
@@ -179,7 +179,7 @@ def main():
     ]
 
     for query in queries:
-        print(f"\n{'鈹€'*60}")
+        print(f"\n{'─'*60}")
         print(f"Query: {query}")
 
         results = retriever.retrieve(query, top_k=3)
