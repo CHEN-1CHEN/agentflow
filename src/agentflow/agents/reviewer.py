@@ -1,5 +1,5 @@
 """
-Reviewer Agent 鈥?validates execution results against the original plan.
+Reviewer Agent — validates execution results against the original plan.
 Checks for correctness, completeness, and quality; provides feedback for re-execution.
 """
 
