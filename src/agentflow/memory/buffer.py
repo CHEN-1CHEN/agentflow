@@ -1,5 +1,5 @@
 """
-Short-Term Memory 鈥?sliding-window conversation buffer for Agent context management.
+Short-Term Memory — sliding-window conversation buffer for Agent context management.
 """
 
 from collections import deque
