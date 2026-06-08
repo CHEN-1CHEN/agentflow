@@ -1,5 +1,5 @@
 """
-Long-Term Memory 鈥?persistent vector-based memory for cross-session knowledge retention.
+Long-Term Memory — persistent vector-based memory for cross-session knowledge retention.
 """
 
 import json
