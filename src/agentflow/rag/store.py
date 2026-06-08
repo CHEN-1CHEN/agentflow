@@ -1,5 +1,5 @@
 """
-Vector Store 鈥?ChromaDB-backed vector storage and similarity search.
+Vector Store — ChromaDB-backed vector storage and similarity search.
 """
 
 import os
