@@ -1,5 +1,5 @@
 """
-Text Chunker 鈥?splits documents into overlapping chunks for RAG indexing.
+Text Chunker — splits documents into overlapping chunks for RAG indexing.
 """
 
 import re
@@ -43,7 +43,7 @@ class TextChunker:
     def _split_text(self, text: str) -> list[str]:
         """Split text into overlapping chunks, respecting sentence boundaries."""
         # Split into sentences (Chinese + English aware)
-        sentences = re.split(r'(?<=[銆傦紒锛?!?\n])\s*', text)
+        sentences = re.split(r'(?<=[。！？.!?\n])\s*', text)
         sentences = [s.strip() for s in sentences if s.strip()]
 
         chunks = []
