@@ -1,5 +1,5 @@
 """
-Orchestrator 鈥?coordinates the Planner 鈫?Executor 鈫?Reviewer loop
+Orchestrator — coordinates the Planner → Executor → Reviewer loop
 for multi-agent task execution with feedback-driven retry.
 """
 
@@ -15,7 +15,7 @@ from ..tools.base import ToolRegistry
 
 
 class Orchestrator:
-    """Coordinates multi-agent workflow: Plan 鈫?Execute 鈫?Review 鈫?(Retry|Next)."""
+    """Coordinates multi-agent workflow: Plan → Execute → Review → (Retry|Next)."""
 
     def __init__(
         self,
@@ -43,7 +43,7 @@ class Orchestrator:
 
         # Phase 1: Planning
         if self.verbose:
-            print("\n[Phase 1] PlannerAgent 鈥?Decomposing task...")
+            print("\n[Phase 1] PlannerAgent — Decomposing task...")
         plan = self.planner.run(task)
         steps = plan.get("plan", [])
         if self.verbose:
@@ -59,7 +59,7 @@ class Orchestrator:
         for step in steps:
             step_id = step.get("step_id", "?")
             if self.verbose:
-                print(f"\n[Phase 2] ExecutorAgent 鈥?Step {step_id}: {step['description'][:80]}")
+                print(f"\n[Phase 2] ExecutorAgent — Step {step_id}: {step['description'][:80]}")
 
             # Resolve dependencies
             deps = step.get("depends_on", [])
@@ -78,7 +78,7 @@ class Orchestrator:
 
                 # Phase 3: Review
                 if self.verbose:
-                    print(f"[Phase 3] ReviewerAgent 鈥?Validating step {step_id}...")
+                    print(f"[Phase 3] ReviewerAgent — Validating step {step_id}...")
                 review = self.reviewer.review(
                     step=step,
                     execution_result=exec_result,
