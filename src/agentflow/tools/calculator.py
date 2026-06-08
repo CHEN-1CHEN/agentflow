@@ -1,5 +1,5 @@
 """
-Calculator Tool 鈥?safe mathematical expression evaluation.
+Calculator Tool — safe mathematical expression evaluation.
 """
 
 import math
