@@ -4,7 +4,7 @@ setup(
     name="agentflow",
     version="1.0.0",
     description="Multi-Agent LLM Framework with RAG, Tool Calling, and Task Orchestration",
-    author="Siqi Chen",
+    author="陈一千",
     python_requires=">=3.10",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
