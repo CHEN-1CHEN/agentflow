@@ -1,5 +1,5 @@
 """
-File Operations Tool 鈥?read, write, and list files within the workspace.
+File Operations Tool — read, write, and list files within the workspace.
 """
 
 import os
