@@ -1,5 +1,5 @@
 """
-Embedder 鈥?text to vector embedding using sentence-transformers.
+Embedder — text to vector embedding using sentence-transformers.
 """
 
 import numpy as np
