@@ -1,5 +1,5 @@
 """
-Python Executor Tool 鈥?sandboxed execution of Python code snippets.
+Python Executor Tool — sandboxed execution of Python code snippets.
 """
 
 import io
