@@ -1,5 +1,5 @@
 """
-Retriever 鈥?high-level RAG retrieval interface combining embedder + vector store.
+Retriever — high-level RAG retrieval interface combining embedder + vector store.
 """
 
 from typing import Any
